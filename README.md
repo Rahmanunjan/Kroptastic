@@ -1,13 +1,32 @@
-# Sample Hardhat Project
+# Barley Harvest Dapp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Overview
 
-Try running some of the following tasks:
+A decentralized app to record and optimise barley harvest times using real-time sensor data (leaf coloration, soil moisture, nitrogen content). Enables farmers and supply chain stakeholders to make data-driven decisions, improve yield quality, and receive transparent harvest records.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Features (Phase 1)
+
+- Record sensor data (leaf coloration, soil moisture, nitrogen)
+- Predict optimal harvest dates
+- Record actual harvest dates
+- Emit events for off-chain notifications
+
+## Future Phases
+
+See `phases.md`
+
+## Smart Contract
+
+- Solidity version: ^0.8.20
+- Contract: `BarleyHarvestTracker.sol`
+
+## Deployment
+
+1. Clone this repo
+2. Install dependencies (e.g. Hardhat or Foundry)
+3. Compile: `npx hardhat compile`
+4. Deploy using Hardhat scripts or Remix IDE
+
+## License
+
+MIT

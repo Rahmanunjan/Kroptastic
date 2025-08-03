@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Hardhat artifacts
+artifacts/
+cache/
+typechain/
+
+# Coverage reports
+coverage/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store

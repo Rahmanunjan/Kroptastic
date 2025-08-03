@@ -27,6 +27,14 @@ See `phases.md`
 3. Compile: `npx hardhat compile`
 4. Deploy using Hardhat scripts or Remix IDE
 
+## 📚 Further Documentation
+
+- [Core Users](./users.md)
+- [Feature List](./features.md)      <!-- If features.md is still in docs, move it too or update path -->
+- [Roadmap & Phases](./phases.md)
+- [User Questionnaire](./questionnaire.md)
+
+
 ## License
 
 MIT
